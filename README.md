@@ -19,7 +19,7 @@ An end-to-end deep learning and computer vision pipeline engineered to detect an
 ├── best.pt             # Fine-tuned YOLO26m model weights (place in root folder)
 ├── requirements.txt    # Application dependency specifications
 └── README.md           # Project documentation
-
+```
 -------------------------------------
 
 ## **⚙️ Core Pipeline Architecture**
