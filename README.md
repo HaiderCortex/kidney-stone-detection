@@ -24,6 +24,7 @@ An end-to-end deep learning and computer vision pipeline engineered to detect an
 
 ## **⚙️ Core Pipeline Architecture**
 The application executes a deterministic medical computer vision sequence on every uploaded image to prevent distribution shift and maintain diagnostic consistency:
+```text
 [User Scan Upload] ──> (Streamlit UI) ──> [HTTP POST API Request]
                                                   │
                                                   ▼
@@ -41,7 +42,7 @@ The application executes a deterministic medical computer vision sequence on eve
                                                   │
                                                   ▼
 [Render Layout & Metrics] <── (Base64 + JSON) <── [Extract BBoxes & Plot]
-
+```
 ------------------------------
 
 ## **🔹 Notebook Preprocessing Sequence**
@@ -54,12 +55,13 @@ The application executes a deterministic medical computer vision sequence on eve
 
 ## **🛠️ Installation & Setup**
 ### **1. Clone the Workspace**
-  git clone [https://github.com/your-username/kidney-stone-detection.git](https://github.com/your-username/kidney-stone-       detection.git)
+  git clone [https://github.com/your-username/kidney-stone-detection.git]
+  (https://github.com/your-username/kidney-stone-detection.git)
   cd kidney-stone-detection
 
 ### **2. Configure Dependencies**
 Ensure you have Python 3.9+ installed, then run:
-     pip install -r requirements.txt
+     pip install -r requirements.txt.
 Dependencies include: ultralytics, fastapi, streamlit, opencv-python, numpy, requests, pydantic, and uvicorn.
 
 ### **3. Add Model Weights**
