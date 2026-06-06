@@ -65,6 +65,7 @@ Dependencies include: ultralytics, fastapi, streamlit, opencv-python, numpy, req
 ### **3. Add Model Weights**
 Ensure your fine-tuned best.pt file is saved directly into the root directory of this workspace:
     D:\development\python\Kidney stone detection\weights\best.pt  --> copy to root workspace
+    
 ---------------------------------
 ## **🛫 Running the Application**
 To run the full stack, open two separate terminal instances in your workspace environment:
@@ -74,7 +75,7 @@ To run the full stack, open two separate terminal instances in your workspace en
 The backend server will host locally at http://127.0.0.1:8000. You can view the interactive interactive API documentation at http://127.0.0.1:8000/docs.
 
 ### **Step 2: Launch the Streamlit Dashboard**
-         streamlit run frontend.py
+     streamlit run frontend.py
 The interface will automatically deploy in your default web browser at http://localhost:8501.
 
 -------------------------------
