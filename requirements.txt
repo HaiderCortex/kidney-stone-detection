@@ -1,0 +1,25 @@
+# Core Machine Learning & Object Detection
+ultralytics==8.4.21
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Image Processing & Data Math
+opencv-python-headless==4.10.0.84
+numpy>=1.24.0
+pandas>=2.0.0
+albumentations>=1.4.0
+
+# Backend API Framework (app.py)
+fastapi==0.110.0
+uvicorn==0.28.0
+pydantic>=2.0
+python-multipart==0.0.9
+
+# Frontend User Interface (frontend.py)
+streamlit==1.32.0
+requests==2.31.0
+
+# Development, Visualization & Quality Assurance
+pytest==8.1.1
+httpx==0.27.0
+matplotlib>=3.7.0
