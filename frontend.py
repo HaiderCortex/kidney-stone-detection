@@ -35,11 +35,11 @@ if uploaded_file is not None:
     input_image = Image.open(io.BytesIO(bytes_data))
     
     with col1:
-        st.subheader("🖼️ Raw Input Scan")
+        st.subheader(" Raw Input Scan")
         st.image(input_image, use_container_width=True, caption="Uploaded Original Scan Matrix")
         
     with col2:
-        st.subheader("🎯 YOLO Diagnostic Output")
+        st.subheader("Diagnostic Output")
         with st.spinner("Executing Pipeline Sequence (Preprocessing + Inference)..."):
             try:
                 # Prepare payload dictionary stream bytes mapping structure 
