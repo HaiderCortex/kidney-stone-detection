@@ -68,7 +68,7 @@ While bounding boxes provide localization, clinical burden measurement requires 
 ### Segmentation Visuals
 
 ![U-Net Metric Results](<images/unet/Evaluation.png>)
-![Metric Visuals](<images/unet/metrix_visuals.png>)
+![Metric Visuals](<images/unet/matrix_visuals.png>)
 ![Predicted Test Slices](<images/unet/Test_data_result.png>)
 ![Predicted Test Slices](<images/unet/test_data_results.png>)
 
