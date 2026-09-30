@@ -38,14 +38,14 @@ The detection module is responsible for the rapid, real-time localization of ren
 
 ### YOLO Architecture
 
-![YOLO26 Architecture](<images/yolo_architecture.png>)
+![YOLO26 Architecture](images/yolo_architecture.png)
 
 ### Detection Results
 
-![Model Evaluation and Results](<images/final evaluation.png>)
-![Confusion Matrix](<images/confusion matrix.png>)
-![YOLO26 Performance](<images/YOLO26 performance.png>)
-![Predicted Image](<images/sucess case.png>)
+![Model Evaluation and Results](images/final_evaluation.png)
+![Confusion Matrix](images/confusion_matrix.png)
+![YOLO26 Performance](images/YOLO26_performance.png)
+![Predicted Image](images/success_case.png)
 
 ---
 
@@ -63,7 +63,7 @@ While bounding boxes provide localization, clinical burden measurement requires 
 
 ### U-Net Architecture
 
-![U-Net Architecture](<images/U-Net architecture.png>)
+![U-Net Architecture](images/U-Net_architecture.png)
 
 ### Segmentation Visuals
 
