@@ -24,6 +24,7 @@ graph TD
     F -->|Draws Bounding Box| G[ROI Cropping]
     G --> H{UNet++ Segmentation Layer}
     H -->|Pixel-Level Mapping| I[Final Diagnostic Image Overlay]
+```
 
 ## 🎯 Phase 1: Object Detection (YOLO)
 
