@@ -38,14 +38,14 @@ The detection module is responsible for the rapid, real-time localization of ren
 
 ### YOLO Architecture
 
-![YOLO26 Architecture](images/yolo_architecture.png)
+![YOLO26 Architecture](images/yolo/yolo_architecture.png)
 
 ### Detection Results
 
-![Model Evaluation and Results](images/final_evaluation.png)
-![Confusion Matrix](images/confusion_matrix.png)
-![YOLO26 Performance](images/YOLO26_performance.png)
-![Predicted Image](images/success_case.png)
+![Model Evaluation and Results](images/yolo/final_evaluation.png)
+![Confusion Matrix](images/yolo/confusion_matrix.png)
+![YOLO26 Performance](images/yolo/YOLO26_performance.png)
+![Predicted Image](images/yolo/success_case.png)
 
 ---
 
@@ -63,13 +63,13 @@ While bounding boxes provide localization, clinical burden measurement requires 
 
 ### U-Net Architecture
 
-![U-Net Architecture](images/U-Net_architecture.png)
+![U-Net Architecture](images/unet/U-Net_architecture.png)
 
 ### Segmentation Visuals
 
-![U-Net Metric Results](<images/Evaluation.png>)
-![Metric Visuals](<images/metrix visuals.png>)
-![Predicted Test Slices](<images/Test data result.png>)
+![U-Net Metric Results](<images/unet/Evaluation.png>)
+![Metric Visuals](<images/unet/metrix visuals.png>)
+![Predicted Test Slices](<images/unet/Test data result.png>)
 
 ---
 
@@ -79,7 +79,7 @@ While bounding boxes provide localization, clinical burden measurement requires 
 * **Computer Vision:** OpenCV (`cv2`), Albumentations.
 * **Data Science:** Pandas, NumPy, Matplotlib, Scikit-learn.
 * **Backend API & Deployment:** FastAPI, Uvicorn, Streamlit.
-![Predicted normal(wrong)](<images/failure case.png>)
+
 
 ## ⚠️ Limitations
 
@@ -87,7 +87,7 @@ While bounding boxes provide localization, clinical burden measurement requires 
 * **False Negatives:** 24% of actual stones are missed and classified as background.
 * **Scale Imbalance:** Stones are extremely small relative to the full CT scan.
 * **Compute Cost:** Achieving higher recall requires double the training time and GFLOPs.
-
+![Predicted normal(wrong)](<images/yolo/failure_case.png>)
 
 ## 🚀 Future Work
 
