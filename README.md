@@ -38,7 +38,7 @@ The detection module is responsible for the rapid, real-time localization of ren
 
 ### YOLO Architecture
 
-![YOLO26 Architecture](images/yolo/yolo_architecture.png)
+![YOLO26 Architecture](images/yolo/yolo_architecture.jpg)
 
 ### Detection Results
 
