@@ -3,10 +3,8 @@
 
 An advanced, end-to-end artificial intelligence healthcare platform designed to enhance diagnostic accuracy and expedite clinical workflows. This project utilizes a dual-stage neural network pipeline combining **YOLO** for real-time object localization and **UNet++** for precise pixel-level medical image segmentation.
 
-## 👥 Team Members (Group 31)
-* **Furqan Haider** (Group Leader)
-* **Mashal Hassan**
-* **Muhammad Shaheer**
+## Group 31
+* **Furqan Haider** (Group Leader) I build whole project.
 * **Supervisor:** Dr. Sanaullah Khan (Institute of Computing, KUST)
 
 ---
@@ -27,6 +25,8 @@ graph TD
 ```
 
 ## 🎯 Phase 1: Object Detection (YOLO)
+
+[![View on nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/HaiderCortex/kidney-stone-detection/blob/main/Notebooks/kidney-stone-detection-using-yolov26.ipynb)
 
 The detection module is responsible for the rapid, real-time localization of renal calculi within clinical CT slices.
 
